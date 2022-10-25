@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 0;
+}
+h4{
+    font-family: monospace;
+    font-size: 1rem;
+    color: darkslategrey;
+    line-height: 100px;
+    text-align: center;
+    user-select: none;
+}
+#container{
+    width: 500px;
+    height: 600px;
+}
+#hero-image{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+#menu-holder{
+    display: flex;
+    height: 100px;
+
+}
+.menu-item{
+    width: 100px;
+    height: 100px;
+    border:solid rgb(0, 0, 0) 1px;
+}
+.button:hover{
+    background-color: rgb(114, 156, 156);
+}
+.button:active{
+    background-color: lightslategray;
+}
+.selected{
+    background-color: rgb(180, 156, 226);
+}
