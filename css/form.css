@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+p{
+    font-family: monospace;
+    font-size: 1rem;
+    color: rgb(28, 49, 49);
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+#container{
+    width: 200px;
+
+}
+#submit{
+    width: 60px;
+    height: 35px;
+    background-color: rgb(90, 155, 230);
+    margin-top: 10px;
+    line-height: 30px;
+    user-select: none;
+    text-align: center;
+}
+#submit:hover{
+    background-color: darkslategrey;
+
+}
